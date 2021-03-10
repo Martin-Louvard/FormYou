@@ -8,7 +8,9 @@ import {
 import Home from './pages/Home';
 import Login from './pages/Login';
 import Register from './pages/Register';
-import Navabar from './components/Navbar'
+import Navabar from './components/Navbar';
+import './main.css';
+
 const App = () => {
     return (
 
