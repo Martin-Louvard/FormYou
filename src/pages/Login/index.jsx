@@ -43,10 +43,16 @@ const Login = () => {
                     Email :
           <input type="text" value={emailValue} onChange={handleChangeEmail} />
                 </label>
+                <br></br>
+                <br></br>
+
                 <label>
                     Password :
           <input type="text" value={passwordValue} onChange={handleChangePassword} />
                 </label>
+                <br></br>
+                <br></br>
+
                 <input type="submit" value="Se connecter" />
             </form>
         </div>

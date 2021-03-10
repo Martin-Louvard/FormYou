@@ -61,22 +61,41 @@ const Register = () => {
                     Email :
           <input type="text" value={emailValue} onChange={handleChangeEmail} />
                 </label>
+                <br></br>
+                <br></br>
+
                 <label>
                     First Name :
           <input type="text" value={firstNameValue} onChange={handleChangeFirstName} />
                 </label>
+                <br></br>
+                <br></br>
+
                 <label>
                     Last Name :
           <input type="text" value={lastNameValue} onChange={handleChangeLastName} />
                 </label>
+                <br></br>
+        <br></br>
+
                 <label>
                     Role :
-          <input type="text" value={roleValue} onChange={handleChangeRole} />
+                    <select value={roleValue} onChange={handleChangeRole}>
+            <option value="student">Student</option>
+            <option value="teacher">Teacher</option>
+            <option value="admin">Admin</option>
+          </select>
                 </label>
+                <br></br>
+                <br></br>
+
                 <label>
                     Password :
           <input type="text" value={passwordValue} onChange={handleChangePassword} />
                 </label>
+                <br></br>
+                <br></br>
+
                 <input type="submit" value="Envoyer" />
             </form>
 
